@@ -13,7 +13,7 @@
         "screenshot": "mdx-deck screenshot deck.js -d dist",
         "prettier": "prettier --write --tab-width 4 --print-width 80 \"./**/*.js\"",
         "doall": "npm run screenshot && npm run build && npm run deploy",
-        "deploy": "gh-pages -d dist"
+        "deploy": "mdx-deck build deck.js -d dist --no-html && gh-pages -d dist"
     },
     "devDependencies": {
         "file-loader": "^2.0.0",

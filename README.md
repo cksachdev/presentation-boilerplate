@@ -8,6 +8,8 @@
 
 > Slides for how to create presentation slides using mdx-deck and code-surfer. Written in mdx!
 
+> #### Preview: https://cksachdev.github.io/presentation-boilerplate/
+
 ## Install
 ```
 npm i -g mdx-deck
